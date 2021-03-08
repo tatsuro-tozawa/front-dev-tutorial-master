@@ -1,5 +1,7 @@
 const arry = [1, 2, 3, 4, 5, 6];
 
-for (let i = 0; i < arry.length; i++) {
+// for in：添字（インデックス） i,j,k
+// fot of：値 v
+for (let i of arry) {
     console.log(i);
 }
